@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/sendMessage.js": {
+      "memory": 512,
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/sendMessage",
+      "dest": "/api/sendMessage.js"
+    }
+  ]
+}
